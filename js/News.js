@@ -41,8 +41,6 @@ const images =[
     document.getElementById("image4")
 ]
 const fetchResults = async(targetLocation)=>{
-    //let url = `https://newsapi.org/v2/everything?q=${targetLocation}&from=2023-05-30&sortBy=publishedAt&apiKey=81c3b0e84eb44195a770b6d84e26a963`;
-
     const res = await fetch(url);
     const data = await res.json();
 
